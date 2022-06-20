@@ -1,0 +1,49 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #284d59;
+    height: 70px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    width: 70%;
+    float: left;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 20%;
+    float: right;
+}
+.home{
+    background-color: white;
+    width: 100%;
+    border-bottom: 3px solid #284d59;
+}
+
+.menu-home ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.menu-home ul li a{
+    color: #284d59;
+    text-decoration: none;
+    font-size: 20px;
+}
