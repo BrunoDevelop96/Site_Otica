@@ -31,19 +31,44 @@ main {
     width: 20%;
     float: right;
 }
-.home{
+
+.home {
     background-color: white;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
     border-bottom: 3px solid #284d59;
 }
 
-.menu-home ul li{
+.menu-home ul li {
     display: inline-block;
     margin-left: 30px;
     padding-top: 20px;
+    height: 50px;
 }
-.menu-home ul li a{
-    color: #284d59;
+
+.menu-home ul li a:hover {
+    color: black;
+}
+
+.menu-home ul li a {
+    color: #3c7486;
     text-decoration: none;
     font-size: 20px;
 }
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+/*Slide de fotos*/
+
+.slider-fotos {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 5%;
+    text-align: center;
+}
+
+/*Conteúdo*/
