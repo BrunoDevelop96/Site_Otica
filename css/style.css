@@ -3,35 +3,33 @@ body {
     height: 100%;
     margin: 0 auto;
 }
-
-.menu-principal {
-    width: 100%;
-    background-color: #284d59;
-    height: 70px;
-}
-
 main {
     margin: 0 auto;
     width: 980px;
     position: relative;
 }
 
+/*Menu rede-sociais*/
+.menu-principal {
+    width: 100%;
+    background-color: #284d59;
+    height: 70px;
+}
 .logo {
     width: 70%;
     float: left;
 }
-
 .redes-sociais ul li {
     margin-left: 25px;
     display: inline-block;
     list-style: none;
 }
-
 .redes-sociais {
     width: 20%;
     float: right;
 }
 
+/*Links*/
 .home {
     background-color: white;
     width: 980px;
@@ -54,6 +52,7 @@ main {
     color: #3c7486;
     text-decoration: none;
     font-size: 20px;
+    padding: 15px;
 }
 
 .col-100 {
@@ -63,12 +62,96 @@ main {
 }
 
 /*Slide de fotos*/
-
 .slider-fotos {
     width: 980px;
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 7%;
     text-align: center;
 }
 
-/*Conteúdo*/
+/*Div Promoções*/
+.promocoes {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.titulo-promocao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #284d59;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/*Div links-fim*/
+footer {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 230px;
+    width: 100%;
+    background-color: #284d59;
+    height: 70px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 40px;
+    color: white;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper li {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.wrapper ul {
+    padding-right: 40px;
+}
+
+/*Forma de pagamento*/
+.selos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pagamento {
+    text-align: center;
+}
+
+.pagamento h4 {
+    color: white;
+    background-color: #284d59;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.pagamento__pag img {
+    height: 50px;
+    width: 50px;
+}
+
+.pagamento__pag i {
+    padding: 15px;
+}
+
+.pagamento__pag {
+    background-color: #d4ecf5;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
