@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ótica Kairós</title>
+    <!-- Link do CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <!--Link do JS local-->
+    <script src="js/glasses.js"></script>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color:#284d59 ; ">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="img/Logo.png" width="80">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" style="padding: 10px;">
+                            <a href="#" class="nav-link" style="color: white; font-family: monospace;">ÓCULOS DE
+                                GRAU</a>
+                        </li>
+                        <li class="nav-item" style="padding: 10px;">
+                            <a href="#" class="nav-link" style="color: white; font-family: monospace;">ÓCULOS DE
+                                SOL</a>
+                        </li>
+                        <li class="nav-item" style="padding: 10px;">
+                            <a href="#" class="nav-link" style="color: white; font-family: monospace;">LENTE DE
+                                CONTATO</a>
+                        </li>
+                        <li class="nav-item" style="padding: 10px;">
+                            <a href="#" class="nav-link" style="color: white; font-family: monospace; padding-right: 200px;"">ACESSÓRIOS</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Filtro de Óculos-->
+    <section id="loja">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href=""><img src="img/homem-oculos.jpg" height="500px" width="100%"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href=""><img src="img/mulher-oculos.jpg" height="500px" width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Carrosel de promoções-->
+    <h2 class="titulo-promocao" style="font-family: monospace;">Promoções</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cards-wrapper" >
+
+                    <div class="card " style="width: 18rem;">
+                        <a href="#">
+                            <img class="zoom"   src="img/promocao1.jpeg" onmouseover="this.src='./img/promocao1.1.jpeg'" onmouseout="this.src='./img/promocao1.jpeg'"  > 
+                        </a>
+                        <div class="detalhes-promocao">
+                            <h3 class="d-none d-sm-block"> Gatinha</h3>
+                            <strong class="shelf-price-best">R$ 250,00</strong>
+                            <em class="shelf-installment">
+                                EM ATÉ 5x de R$ 50,00 <strong>sem juros</strong>
+                            </em>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+                            <img class="zoom"   src="img/oculos-promocao2.jpeg" onmouseover="this.src='./img/oculos-promocao2.jpeg'" onmouseout="this.src='./img/oculos-promocao2.jpeg'"  > 
+                        </a>
+                        <div class="detalhes-promocao">
+                            <h3 class="d-none d-sm-block">Azul degradê</h3>
+                            <strong class="shelf-price-best">R$ 250,00</strong>
+                            <em class="shelf-installment">
+                                EM ATÉ 5x de R$ 50,00 <strong>sem juros</strong>
+                            </em>
+                           <!-- <div class="desconto-pix">
+                                <i class="sprite sprite-icon5-pix"></i>
+                                <span><strong>5% OFF</strong> NO PIX</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+                            <img  class="zoom" src="img/oculos-promocao3.jpeg" onmouseover="this.src='./img/oculos-promocao3.jpeg'" onmouseout="this.src='./img/oculos-promocao3.jpeg'"> 
+                        </a>
+                        <div class="detalhes-promocao">
+                            <h3 class="d-none d-sm-block">Marrom degradê</h3>
+                            <strong class="shelf-price-best">R$ 250,00</strong>
+                            <em class="shelf-installment">
+                                EM ATÉ 5x de R$ 50,00 <strong>sem juros</strong>
+                            </em>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+                            <img  class="zoom" src="img/promocao4.jpeg" onmouseover="this.src='./img/promocao4.1.jpeg'" onmouseout="this.src='./img/promocao4.jpeg'">
+                         </a>
+                         <div class="detalhes-promocao">
+                            <h3 class="d-none d-sm-block">Sol</h3>
+                             <strong class="shelf-price-best">R$ 150,00</strong>
+                             <em class="shelf-installment">
+                                 EM ATÉ 2x de R$ 75,00 <strong>sem juros</strong>
+                             </em>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Div final-->
+    <footer>
+        <div class="fim">
+            <div class="container ">
+                <div class="row">
+                    <div class="intituicao  col-4">
+                        <ul >
+                            <h5><strong> Instituição </strong></h5>
+                            <li ><a href=" ">Quem somos nós?</a></li>
+                            <li ><a href=" ">Nossa meta</a></li>
+                            <li ><a href=" ">Familia Kairós</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <div>
+                            <ul >
+                                <h5><strong> Informações </strong></h5>
+                                <li>
+                                    <a href=" ">Compra e Entrega</a>
+                                </li>
+                                <li><a href=" ">Trocas e Devoluções</a></li>
+                                <li><a href=" ">Termos de Uso</a></li>
+                                <li><a href=" ">Segurança e Privacidade</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="redes-sociais">
+                            <ul >
+                                <h5><strong> Contatos </strong></h5>
+                                <li>
+                                    <a href="wa.me/5581995132110"><img  src="img/whatsapp.svg"> </a>
+                                    <a href="https://www.instagram.com/otica_kaiross/"><img src="img/instagram.svg"></a>
+                                    <a href="https://www.linkedin.com/feed/"><img src="img/linkedin.svg"> </a>
+                                    <a href="https://outlook.live.com/mail/0/junkemail"><img src="img/envelope-fill.svg"> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
